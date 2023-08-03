@@ -4,8 +4,8 @@
 }
 
 body{
-    width: 700px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 ul{
@@ -19,6 +19,7 @@ ul{
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px 50px;
 }
 
 .logo{
@@ -29,4 +30,68 @@ ul{
 .nav{
     display: flex;
     gap: 10px;
+}
+
+.hero{
+    display: flex;
+    padding: 50px 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.hero-image{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    margin-left: 50px;
+    flex-shrink: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 40px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box{
+    width: 75px;
+    font-size: 13px;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.box-outline{
+    width: 70px;
+    height: 70px;
+    border: 2px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    border-radius: 10px;
+}
+
+
+
+button{
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 10px;
 }
