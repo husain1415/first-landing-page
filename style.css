@@ -39,6 +39,10 @@ ul{
     color: white;
 }
 
+.hero-content{
+    width: 300px;
+}
+
 .hero h2{
     font-size: 48px;
     font-weight: bolder;
@@ -52,7 +56,6 @@ ul{
     height: 200px;
     border: 3px solid #3882F6;
     margin-left: 50px;
-    flex-shrink: 0;
 }
 
 .content{
@@ -61,13 +64,16 @@ ul{
     justify-content: center;
     align-content: center;
     padding: 30px 40px;
+    padding-bottom: 60px;
 }
 
 .boxes{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 35px;
     gap: 30px;
+
 }
 
 .box{
@@ -81,12 +87,39 @@ ul{
     width: 70px;
     height: 70px;
     border: 2px solid blue;
-    margin-top: 10px;
     margin-bottom: 10px;;
     border-radius: 10px;
 }
 
+.quotes{
+    background-color: #E5E7EB;
+    padding: 70px;
+}
 
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name{
+    align-self: flex-end;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.action{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box{
+    background-color: #3882F6;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 button{
     background-color: #3882F6;
