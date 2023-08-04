@@ -4,7 +4,6 @@
 }
 
 body{
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -12,119 +11,79 @@ ul{
     list-style: none;
 }
 
+.container{
+ border: 3px solid black;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
 .header{
-    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: #1f2937;
     font-size: 18px;
-    color: #E5E7EB;
-    padding: 10px 50px;
+    color: #e5e7eb;
+    padding: 10px 20px;
 }
 
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.nav{
+.header ul{
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.hero{
+.hero-section{
     display: flex;
-    padding: 50px 100px;
-    background-color: #1F2937;
-    color: white;
+    padding: 30px 20px;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.hero-content{
-    width: 300px;
+.hero-text{
+    width: 350px;
 }
 
-.hero h2{
+.hero-section h1{
     font-size: 48px;
+    color: #F9FAF8;
     font-weight: bolder;
-    color:#F9FAF8;
-    line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.hero-section h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-section button{
+    background-color: #3882f6;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
 }
 
 .hero-image{
-    width: 200px;
-    height: 200px;
-    border: 3px solid #3882F6;
-    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-shrink: 0;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 30px 40px;
-    padding-bottom: 60px;
-}
-
-.boxes{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 35px;
-    gap: 30px;
-
+    gap: 50px;
 }
 
-.box{
-    width: 75px;
-    font-size: 13px;
-    flex: 1;
-    justify-content: space-evenly;
-}
-
-.box-outline{
-    width: 70px;
-    height: 70px;
-    border: 2px solid blue;
-    margin-bottom: 10px;;
-    border-radius: 10px;
-}
-
-.quotes{
-    background-color: #E5E7EB;
-    padding: 70px;
-}
-
-.quote{
-    display: flex;
-    flex-direction: column;
-}
-
-.author-name{
-    align-self: flex-end;
-    margin-top: 10px;
-    font-weight: 900;
-}
-
-.action{
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.action-box{
-    background-color: #3882F6;
-    padding: 30px 200px;
+.cards{
     display: flex;
     justify-content: space-evenly;
-}
-
-button{
-    background-color: #3882F6;
-    padding: 5px;
-    border-radius: 7px;
-    color: white;
-    margin-top: 10px;
+    gap: 40px;
 }
