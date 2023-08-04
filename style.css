@@ -16,7 +16,6 @@ ul{
  display: flex;
  flex-direction: column;
  justify-content: center;
-
 }
 
 .header{
@@ -80,10 +79,79 @@ ul{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    padding: 50px;
 }
 
 .cards{
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.quotes{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.quotes, .author{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author{
+    align-self: flex-end;
+}
+
+.action{
+    padding: 70px;
+}
+
+.action-box{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action button{
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.action-text h4{
+    margin-bottom: 7px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
